@@ -11,27 +11,36 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    
-    <h1>Hello, world!</h1>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-          </ul>
+    <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="{{ url('/') }}">
+                Logo
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Left Side Of Navbar -->
+                <ul class="navbar-nav mr-auto">
+                    <a class="nav-link" href="{{ url('/') }}">Frederick Imanuel</a>
+                </ul>
+
+                <!-- Right Side Of Navbar -->
+                <ul class="navbar-nav ml-auto">
+                    <a class="nav-link" href="#">ABOUT</a>
+                    <a class="nav-link" href="#">EXPERIENCE</a>
+                    <a class="nav-link" href="#">EDUCATION</a>
+                    <a class="nav-link" href="#">PORTOFOLIO</a>
+                    <a class="nav-link" href="#">CONTACT</a>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
+
+
+
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
