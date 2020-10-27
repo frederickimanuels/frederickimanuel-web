@@ -89,7 +89,7 @@
 
                     {{-- Resume Download --}}
                     <div class="mt-4">
-                        <a href="#" class="btn about-text btn-outline-primary">My Resume</a>
+                        <a href="https://media-exp1.licdn.com/media/AAYUAQR3AAgAAQAAAAAAABgetTb_T-T-SXaAjWfn3ZOBAg.png" target="_blank" class="btn about-text btn-outline-primary">My Resume</a>
                     </div>
 
                     {{-- Blog Updates --}}
