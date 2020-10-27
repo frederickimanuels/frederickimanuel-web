@@ -15,7 +15,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 
-        <title>Hello, world!</title>
+        <title>Frederick Imanuel</title>
     </head>
     <body>
         <div class="container" style="font-family: 'Rubik', sans-serif; height: 100vh">
@@ -25,28 +25,30 @@
                         <div class="row">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
-                                <a class="route-link" style="text-decoration: none; font-size:3em; font-weight:bold" href="{{ url('/about')}}">Frederick</a>
+                                <a class="route-link" style="text-decoration: none; font-size:3em; font-weight:bold" 
+                                href="{{ url('/about')}}">Frederick</a>
                             </div>
                             <div class="col-md-3"></div>
                         </div>
                         <div class="row">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
-                                <a class="route-link" style="text-decoration: none; font-size:3em; font-weight:bold" href="{{ url('/projects')}}">Imanuel</a>
+                                <a class="route-link" style="text-decoration: none; font-size:3em; font-weight:bold" 
+                                href="{{ url('/projects')}}">Imanuel</a>
                             </div>
                             <div class="col-md-3"></div>
                         </div>
                         <div class="row">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
-                                <a class="route-link" style="text-decoration: none; font-size:3em; font-weight:bold" href="{{ url('/contact')}}">Setiawan</a>
+                                <a class="route-link" style="text-decoration: none; font-size:3em; font-weight:bold" 
+                                href="{{ url('/contact')}}">Setiawan</a>
                             </div>
                             <div class="col-md-3"></div>
                         </div>
                     </td>
                 </tbody>
             </table>
-            
         </div>
 
 
