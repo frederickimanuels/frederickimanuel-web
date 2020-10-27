@@ -18,7 +18,15 @@
         <title>Frederick Imanuel</title>
     </head>
     <body>
-        <div class="container" style="font-family: 'Rubik', sans-serif; height: 100vh">
+        <div class="bg-warning" style="width:100%; position: fixed;left:0px;top:0px;z-index:-1">
+            <div class="row">
+                <div class="col-md-7"></div>
+                <div class="col-md-5" style="top:-4vh;left: 3.5vw">
+                    <img style="max-width: 160%; height:auto;" src="{{URL::asset('img/profile-gradient.png')}}">
+                </div>
+            </div>
+        </div>
+        <div class="container" style="font-family: 'Rubik', sans-serif; height: 100vh;">
 
 
 
@@ -48,18 +56,7 @@
                 </div>
 
 
-                <div class="col-md-6" style="height: 100vh">
-                    <table style="height: 100%">
-                        <tbody>
-                            <tr>
-                                <td class="align-bottom col-md-6">
-                                    <img style="max-width: 100%; height:auto;" src="{{URL::asset('img/profile-gradient.png')}}">
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-                </div>
+                <div class="col-md-6"></div>
             </div>
 
 
