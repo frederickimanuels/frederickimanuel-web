@@ -62,7 +62,7 @@
                         @foreach($projects as $project)
                         <div class="row pt-4 pb-5 bg-transparent" style="width: 100%; border-bottom: 1px solid lightgray">
                             <div class="col-md-4">
-                                <a href="/projects/{{$project -> id}}">
+                                <a href="{{$project -> link}}" target="_blank">
                                     <img class="project-image" src="{{URL::asset('img/projects/'.$project -> imageurl ) }}" >
                                 </a>
                             </div>
@@ -70,7 +70,7 @@
                                 <table style="width: 100%">
                                     <tbody>
                                         <tr>
-                                            <a href="/projects/{{$project->id}}">
+                                            <a href="{{$project -> link}}" target="_blank">
                                                 <div class="align-baseline" style="font-weight: bold; 
                                                 font-size: 2em;">
                                                     {{$project -> title}}

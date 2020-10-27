@@ -22,4 +22,4 @@ Route::get('/contact', 'ContactController@index');
 
 
 Route::get('/projects', 'ProjectsController@index');
-Route::get('/projects/{project}', 'ProjectsController@show');
+//Route::get('/projects/{project}', 'ProjectsController@show');
