@@ -25,7 +25,7 @@
                         <div class="row">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
-                                <a class="route-link" style="text-decoration: none; font-size:3em; font-weight:bold" 
+                                <a class="name-1" style="text-decoration: none; font-size:4em; font-weight:bold" 
                                 href="{{ url('/about')}}">Frederick</a>
                             </div>
                             <div class="col-md-3"></div>
@@ -33,7 +33,7 @@
                         <div class="row">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
-                                <a class="route-link" style="text-decoration: none; font-size:3em; font-weight:bold" 
+                                <a class="name-2" style="text-decoration: none; font-size:3.5em; font-weight:bold" 
                                 href="{{ url('/projects')}}">Imanuel</a>
                             </div>
                             <div class="col-md-3"></div>
@@ -41,7 +41,7 @@
                         <div class="row">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
-                                <a class="route-link" style="text-decoration: none; font-size:3em; font-weight:bold" 
+                                <a class="name-1" style="text-decoration: none; font-size:4em; font-weight:bold" 
                                 href="{{ url('/contact')}}">Setiawan</a>
                             </div>
                             <div class="col-md-3"></div>
