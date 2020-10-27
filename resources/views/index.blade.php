@@ -52,8 +52,8 @@
                     <table style="height: 100%">
                         <tbody>
                             <tr>
-                                <td class="align-bottom">
-                                    <img class="index-hero" src="{{URL::asset('img/profile-gradient.png')}}">
+                                <td class="align-bottom col-md-6">
+                                    <img style="max-width: 100%; height:auto;" src="{{URL::asset('img/profile-gradient.png')}}">
                                 </td>
                             </tr>
                         </tbody>
