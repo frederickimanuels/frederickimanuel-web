@@ -17,12 +17,20 @@
 
         <title>Frederick Imanuel</title>
     </head>
-    <body>
-        <div class="bg-warning" style="width:100%; position: fixed;left:0px;top:0px;z-index:-1">
-            <div class="row">
+    <body class="bg-light">
+        <div class="bg-light" style="width:100%;height:100vh; position: fixed;left:0px;top:0px;z-index:-1">
+            <div class="row" style="width:100%;height:100vh">
                 <div class="col-md-7"></div>
-                <div class="col-md-5" style="top:-4vh;left: 3.5vw">
-                    <img style="max-width: 160%; height:auto;" src="{{URL::asset('img/profile-gradient.png')}}">
+                <div class="col-md-5">
+                    <table style="height: 100%;width:100%">
+                        <tbody>
+                            <tr>
+                                <td class="align-bottom">
+                                    <img style="max-width: 160%; height:auto;" src="{{URL::asset('img/profile-gradient.png')}}">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
