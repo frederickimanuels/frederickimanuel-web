@@ -14,6 +14,12 @@
 Route::get('/', function () {
     return view('index');
 });
+
+
 Route::get('/about', 'AboutsController@index');
-Route::get('/projects', 'ProjectsController@index');
 Route::get('/contact', 'ContactController@index');
+
+
+
+Route::get('/projects', 'ProjectsController@index');
+Route::get('/projects/{project}', 'ProjectsController@show');

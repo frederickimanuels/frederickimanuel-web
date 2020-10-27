@@ -59,34 +59,39 @@
                 <div class="col-md-8">
                     <div class="list-group">
 
-
+                        @foreach($projects as $project)
                         <div class="row pt-4 pb-5 bg-transparent" style="width: 100%; border-bottom: 1px solid lightgray">
                             <div class="col-md-4">
-                                <img class="project-image" src="{{URL::asset('img/profile-image.jpg')}}" >
+                                <a href="/projects/{{$project -> id}}">
+                                    <img class="project-image" src="{{URL::asset('img/projects/'.$project -> imageurl ) }}" >
+                                </a>
                             </div>
                             <div class="col-md-8">
                                 <table style="width: 100%">
                                     <tbody>
                                         <tr>
-                                            <div class="align-baseline" style="font-weight: bold; 
-                                            font-size: 2em;">
-                                                projectitle
-                                            </div>
+                                            <a href="/projects/{{$project->id}}">
+                                                <div class="align-baseline" style="font-weight: bold; 
+                                                font-size: 2em;">
+                                                    {{$project -> title}}
+                                                </div>
+                                            </a>
                                         </tr>
                                         <tr>
-                                            <a href="#" class="align-baseline" style="font-size: 1em">
-                                                projectlink
+                                            <a href="{{$project -> link}}" class="align-baseline" style="font-size: 1em" target="_blank">
+                                                {{$project -> link}}
                                             </a>
                                         </tr>
                                         <tr>
                                             <div class="align-baseline" style="font-size: 1.2em">
-                                                projectdesc
+                                                {{$project -> description}}
                                             </div>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
+                        @endforeach
 
 
                     </div>
