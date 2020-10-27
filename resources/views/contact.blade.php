@@ -59,6 +59,8 @@
                 <div class="col-md-8 contact-text">
                     <h4 style="font-weight: semibold; font-size:2em;">Contact</h4>
 
+                    <h5 class="text-info">The paragraph has not been set</h5>
+                    
                     <div class="mt-3">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu ante vitae purus consectetur tempor. Etiam eleifend in leo eget molestie. Donec diam eros, rutrum at ultrices in, tristique eu ante. Proin vitae purus molestie ipsum dapibus consectetur tempor vel ipsum. Suspendisse ullamcorper a justo nec suscipit. Nunc finibus libero sed augue auctor venenatis. Duis scelerisque tristique quam eget porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris nulla enim, tincidunt eget eros laoreet, porta dictum lorem. Proin eleifend, velit et ullamcorper egestas, odio tortor hendrerit metus, at rhoncus neque felis faucibus dui. Aenean ante nisl, pharetra sit amet aliquet sit amet, efficitur eu purus. Quisque sodales viverra ex, nec mattis velit sodales quis. Nullam quis erat sit amet risus condimentum venenatis non ut dui. Maecenas faucibus, nulla porttitor venenatis tristique, augue quam dapibus ligula, sit amet bibendum elit risus ac dolor.
                     </div>
