@@ -8,14 +8,38 @@ body {
     color: black;
 }
 
-.name-1:hover {
-    color: #6C757D;
+.name-1:hover span {
+    display: none;
+}
+
+.name-1:hover:before {
+    color: black;
+    content: 'About';
 }
 
 .name-2 {
     color: #1A73E8;
 }
 
-.name-2:hover {
-    color: #63a2f3;
+.name-2:hover span {
+    display: none;
+}
+
+.name-2:hover:before {
+    color: #1A73E8;
+    content: 'Projects';
+}
+
+
+.name-3 {
+    color: black;
+}
+
+.name-3:hover span {
+    display: none;
+}
+
+.name-3:hover:before {
+    color: black;
+    content: 'Contact';
 }

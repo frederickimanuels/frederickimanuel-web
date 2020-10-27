@@ -26,7 +26,7 @@
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
                                 <a class="name-1" style="text-decoration: none; font-size:4em; font-weight:bold" 
-                                href="{{ url('/about')}}">Frederick</a>
+                                href="{{ url('/about')}}"><span>Frederick</span></a>
                             </div>
                             <div class="col-md-3"></div>
                         </div>
@@ -34,15 +34,15 @@
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
                                 <a class="name-2" style="text-decoration: none; font-size:3.5em; font-weight:bold" 
-                                href="{{ url('/projects')}}">Imanuel</a>
+                                href="{{ url('/projects')}}"><span>Imanuel</span></a>
                             </div>
                             <div class="col-md-3"></div>
                         </div>
                         <div class="row">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
-                                <a class="name-1" style="text-decoration: none; font-size:4em; font-weight:bold" 
-                                href="{{ url('/contact')}}">Setiawan</a>
+                                <a class="name-3" style="text-decoration: none; font-size:4em; font-weight:bold" 
+                                href="{{ url('/contact')}}"><span>Setiawan</span></a>
                             </div>
                             <div class="col-md-3"></div>
                         </div>
