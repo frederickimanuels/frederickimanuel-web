@@ -19,7 +19,59 @@
     </head>
     <body>
         <div class="container" style="font-family: 'Rubik', sans-serif; height: 100vh">
-            <table style="height: 100%; width: 100%">
+
+
+
+            <div class="row" style="height: 100vh">
+                <div class="col-md-3"></div>
+                <div class="col-md-3" style="height: 100%;width:100%">
+                    <table style="height:100%; width:100%">
+                        <tbody>
+                            <tr>
+                                <td class="align-middle">
+                                    <div class="row">
+                                        <a class="name-1" style="text-decoration: none; font-size:4em; font-weight:bold" 
+                                        href="{{ url('/about')}}"><span>Frederick</span></a>
+                                    </div>
+                                    <div class="row">
+                                        <a class="name-2" style="text-decoration: none; font-size:3.5em; font-weight:bold" 
+                                        href="{{ url('/projects')}}"><span>Imanuel</span></a>
+                                    </div>
+                                    <div class="row">
+                                        <a class="name-3" style="text-decoration: none; font-size:4em; font-weight:bold" 
+                                        href="{{ url('/contact')}}"><span>Setiawan</span></a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <div class="col-md-6" style="height: 100vh">
+                    <table style="height: 100%">
+                        <tbody>
+                            <tr>
+                                <td class="align-bottom">
+                                    <img class="index-hero" src="{{URL::asset('img/profile-gradient.png')}}">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            {{-- <table style="height: 100%; width: 100%">
                 <tbody>
                     <td class="align-middle">
                         <div class="row">
@@ -33,8 +85,7 @@
                         <div class="row">
                             <div class="col-md-3"></div>
                             <div class="col-md-6">
-                                <a class="name-2" style="text-decoration: none; font-size:3.5em; font-weight:bold" 
-                                href="{{ url('/projects')}}"><span>Imanuel</span></a>
+                                
                             </div>
                             <div class="col-md-3"></div>
                         </div>
@@ -48,7 +99,7 @@
                         </div>
                     </td>
                 </tbody>
-            </table>
+            </table> --}}
         </div>
 
 

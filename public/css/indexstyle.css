@@ -14,7 +14,7 @@ body {
 
 .name-1:hover::before {
     color: black;
-    content: 'About';
+    content: '>About';
 }
 
 .name-2 {
@@ -27,7 +27,7 @@ body {
 
 .name-2:hover::before {
     color: #1A73E8;
-    content: 'Projects';
+    content: '>Projects';
 }
 
 
@@ -41,5 +41,10 @@ body {
 
 .name-3:hover::before {
     color: black;
-    content: 'Contact';
+    content: '>Contact';
+}
+
+.index-hero {
+    max-width: 100%;
+    height: auto;
 }
