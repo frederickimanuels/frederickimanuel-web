@@ -27,7 +27,7 @@
         {{-- Banner --}}
         <div class="container">
             <div class="row mt-5">
-                <div class="col-md-1"  style="height: 5vh"></div>
+                <div class="col-md-1"  style="height: 0vh"></div>
                 <div class="col-md-3"  style="height: 100vh">
                     <table style="height: 100%; width: 100%">
                         <tbody>
@@ -37,7 +37,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-md-1"  style="height: 5vh"></div>
+                <div class="col-md-1"  style="height: 0vh"></div>
                 <div class="col-md-7" style="height: 100vh">
                     <table style="height: 100%; width: 100%">
                         <tbody>
