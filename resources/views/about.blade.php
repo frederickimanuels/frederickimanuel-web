@@ -27,7 +27,18 @@
         {{-- Banner --}}
         <div class="container">
             <div class="row mt-5">
-                <div class="col-md-7" style="height: 95vh">
+                <div class="col-md-1"  style="height: 5vh"></div>
+                <div class="col-md-3"  style="height: 100vh">
+                    <table style="height: 100%; width: 100%">
+                        <tbody>
+                            <td class="align-middle">
+                                <img class="profile-image rounded-circle" src="{{URL::asset('img/profile-image.jpg')}}" >
+                            </td>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-1"  style="height: 5vh"></div>
+                <div class="col-md-7" style="height: 100vh">
                     <table style="height: 100%; width: 100%">
                         <tbody>
                             <td>
@@ -42,18 +53,6 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-md-1"  style="height: 10vh"></div>
-                <div class="col-md-3"  style="height: 95vh">
-                    <table style="height: 100%; width: 100%">
-                        <tbody>
-                            <td class="align-middle">
-                                <img class="profile-image rounded-circle" src="{{URL::asset('img/profile-image.jpg')}}" >
-                            </td>
-                        </tbody>
-                    </table>
-                    
-                </div>
-                <div class="col-md-1"  style="height: 10vh"></div>
             </div>
         </div>
 
