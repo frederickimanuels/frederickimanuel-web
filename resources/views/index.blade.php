@@ -29,7 +29,7 @@
                                 <td class="align-bottom">
                                     <div class="alert alert-primary" role="alert">
                                         This website is still under development, if you want to contact me please go through
-                                        <a href="https://www.linkedin.com/in/frederickimanuels/" class="alert-link">Linkedin</a>. Thank you!
+                                        <a href="https://www.linkedin.com/in/frederickimanuels/" class="alert-link" target="_blank">Linkedin</a>. Thank you!
                                     </div>
                                 </td>
                             </tr>
