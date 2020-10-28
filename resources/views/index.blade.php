@@ -18,9 +18,33 @@
         <title>Frederick Imanuel</title>
     </head>
     <body class="bg-light">
+
+        <div style="width:100%; position:fixed; z-index:999999; left:0;bottom:0;">
+            <div class="row" style="width: 100%;">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <table style="height: 100%;width:100%">
+                        <tbody>
+                            <tr>
+                                <td class="align-bottom">
+                                    <div class="alert alert-primary" role="alert">
+                                        This website is still under development, if you want to contact me please go through
+                                        <a href="https://www.linkedin.com/in/frederickimanuels/" class="alert-link">Linkedin</a>. Thank you!
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+
+
         <div class="bg-light" style="width:100%;height:100vh; position: fixed;left:0px;top:0px;z-index:-1">
             <div class="row" style="width:100%;height:100vh">
-                <div class="col-md-7"></div>
+                <div class="col-md-7">
+                </div>
                 <div class="col-md-5">
                     <table style="height: 100%;width:100%">
                         <tbody>
@@ -34,11 +58,10 @@
                 </div>
             </div>
         </div>
+
+
         <div class="container" style="font-family: 'Rubik', sans-serif; height: 100vh;">
-
-
-
-            <div class="row" style="height: 100vh">
+            <div class="row" style="height: 100vh;">
                 <div class="col-md-3"></div>
                 <div class="col-md-3" style="height: 100%;width:100%">
                     <table style="height:100%; width:100%">
@@ -62,10 +85,13 @@
                         </tbody>
                     </table>
                 </div>
+            <div class="col-md-6"></div>
+        </div>
+
+        
+        
 
 
-                <div class="col-md-6"></div>
-            </div>
 
 
 
