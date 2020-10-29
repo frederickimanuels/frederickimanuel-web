@@ -1,5 +1,5 @@
 ## Personal Web Portfolio
-## Visit <a href="https://www.frederickimanuel.com">www.frederickimanuel.com</a>
+## Visit <a href="https://www.frederickimanuel.com" target="_blank">www.frederickimanuel.com</a>
 
 ## Language Used
 - PHP
