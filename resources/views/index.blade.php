@@ -28,8 +28,9 @@
                             <tr>
                                 <td class="align-bottom">
                                     <div class="alert alert-primary" role="alert">
-                                        This website is still under development, if you want to contact me please go through
-                                        <a href="https://www.linkedin.com/in/frederickimanuels/" class="alert-link" target="_blank">Linkedin</a>. Thank you!
+                                        This website is still under development, if you want to reach me please go through
+                                        <a href="https://www.linkedin.com/in/frederickimanuels/" class="alert-link" target="_blank">Linkedin</a>.
+                                         You can also download my resume <a href="{{url('pdf/Curriculum_Vitae.pdf')}}" class="alert-link" target="_blank">here</a>. Thank you!
                                     </div>
                                 </td>
                             </tr>

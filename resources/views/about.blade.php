@@ -68,7 +68,7 @@
                         <h5 class="text-info">The paragraph has not been set</h5>
 
                         <div class="mt-3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu ante vitae purus consectetur tempor. Etiam eleifend in leo eget molestie. Donec diam eros, rutrum at ultrices in, tristique eu ante. Proin vitae purus molestie ipsum dapibus consectetur tempor vel ipsum. Suspendisse ullamcorper a justo nec suscipit. Nunc finibus libero sed augue auctor venenatis. Duis scelerisque tristique quam eget porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris nulla enim, tincidunt eget eros laoreet, porta dictum lorem. Proin eleifend, velit et ullamcorper egestas, odio tortor hendrerit metus, at rhoncus neque felis faucibus dui. Aenean ante nisl, pharetra sit amet aliquet sit amet, efficitur eu purus. Quisque sodales viverra ex, nec mattis velit sodales quis. Nullam quis erat sit amet risus condimentum venenatis non ut dui. Maecenas faucibus, nulla porttitor venenatis tristique, augue quam dapibus ligula, sit amet bibendum elit risus ac dolor.
+                            {{-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu ante vitae purus consectetur tempor. Etiam eleifend in leo eget molestie. Donec diam eros, rutrum at ultrices in, tristique eu ante. Proin vitae purus molestie ipsum dapibus consectetur tempor vel ipsum. Suspendisse ullamcorper a justo nec suscipit. Nunc finibus libero sed augue auctor venenatis. Duis scelerisque tristique quam eget porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris nulla enim, tincidunt eget eros laoreet, porta dictum lorem. Proin eleifend, velit et ullamcorper egestas, odio tortor hendrerit metus, at rhoncus neque felis faucibus dui. Aenean ante nisl, pharetra sit amet aliquet sit amet, efficitur eu purus. Quisque sodales viverra ex, nec mattis velit sodales quis. Nullam quis erat sit amet risus condimentum venenatis non ut dui. Maecenas faucibus, nulla porttitor venenatis tristique, augue quam dapibus ligula, sit amet bibendum elit risus ac dolor.
                         </div>
 
                         <div class="mt-3">
@@ -84,13 +84,13 @@
                         </div>
 
                         <div class="mt-3">
-                            Sed vulputate volutpat purus, quis efficitur justo porta eget. Integer vel magna gravida, pulvinar risus vel, placerat mauris. Cras dapibus ligula a lacus faucibus venenatis. Ut luctus purus non tortor vulputate hendrerit. Praesent vulputate commodo odio. Proin auctor non turpis ac blandit. Nam volutpat, velit a feugiat pretium, nisl arcu tristique orci, malesuada laoreet sapien tortor eget nulla. Phasellus congue sapien leo, sit amet blandit nibh eleifend ut. Suspendisse nec nisl tristique lorem pellentesque viverra sed sed dui. Nulla mauris quam, elementum sed mi id, blandit ultricies augue. Etiam luctus ultrices erat. Vivamus blandit pharetra orci nec ultrices. Pellentesque vitae sapien tempor, tristique mauris a, posuere leo. Suspendisse id dolor vel ipsum rutrum blandit eu at sapien. Sed dapibus tortor et ornare varius. Suspendisse a neque orci.
+                            Sed vulputate volutpat purus, quis efficitur justo porta eget. Integer vel magna gravida, pulvinar risus vel, placerat mauris. Cras dapibus ligula a lacus faucibus venenatis. Ut luctus purus non tortor vulputate hendrerit. Praesent vulputate commodo odio. Proin auctor non turpis ac blandit. Nam volutpat, velit a feugiat pretium, nisl arcu tristique orci, malesuada laoreet sapien tortor eget nulla. Phasellus congue sapien leo, sit amet blandit nibh eleifend ut. Suspendisse nec nisl tristique lorem pellentesque viverra sed sed dui. Nulla mauris quam, elementum sed mi id, blandit ultricies augue. Etiam luctus ultrices erat. Vivamus blandit pharetra orci nec ultrices. Pellentesque vitae sapien tempor, tristique mauris a, posuere leo. Suspendisse id dolor vel ipsum rutrum blandit eu at sapien. Sed dapibus tortor et ornare varius. Suspendisse a neque orci. --}}
                         </div>
                     </div>
 
                     {{-- Resume Download --}}
                     <div class="mt-4">
-                        <a href="https://media-exp1.licdn.com/media/AAYUAQR3AAgAAQAAAAAAABgetTb_T-T-SXaAjWfn3ZOBAg.png" target="_blank" class="btn about-text btn-outline-primary">My Resume</a>
+                        <a href="{{url('pdf/Curriculum_Vitae.pdf')}}" target="_blank" class="btn about-text btn-outline-primary">My Resume</a>
                     </div>
 
                     {{-- Blog Updates --}}
